@@ -1,0 +1,11 @@
+[package]
+name = "rust-mandelbrot"
+version = "0.1.0"
+authors = ["cncgl <concigel@gmail.com>"]
+
+[[bin]]
+name = "site"
+path = "src/main.rs"
+
+[dependencies]
+webplatform = "*"
